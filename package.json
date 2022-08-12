@@ -1,0 +1,27 @@
+{
+  "name": "nodejsmonpoc",
+  "version": "1.0.0",
+  "description": "A backend poc",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asainr/mongodbparking.git"
+  },
+  "author": "asain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asainr/mongodbparking/issues"
+  },
+  "homepage": "https://github.com/asainr/mongodbparking#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2"
+  }
+}
